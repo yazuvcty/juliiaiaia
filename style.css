@@ -1,5 +1,5 @@
 body {
-    font-family: sans-serif;
+    font-family: monospace;
 }
 
 .link-header {
@@ -26,4 +26,57 @@ nav {
 .social:hover{
 position: relative;
 top: 10px;
+}
+
+.link-header{
+font-size: 25px;
+background-color: hsl(0, 85%, 84%);
+color:rgb(205, 91, 91);
+border-radius: 5px;
+}
+
+.link-header:hover{
+background-color: hotpink;
+color:rgb(255, 255, 255);
+
+}
+
+h1{
+font-size: 40px;
+color: rgb(255, 130, 136);
+}
+
+body{
+color:rgb(255, 221, 234);
+}
+
+p{
+    font-size: 20px;
+color:rgb(245, 149, 165)
+}
+
+ul{
+font-size: 20px;
+color:rgb(245, 149, 165)
+}
+
+.social img{
+width: 100px;
+height: 100px;
+}
+
+footer{
+position:fixed;
+bottom: 0px;
+}
+
+.image{
+display:flex;
+flex-wrap:wrap;
+width: 60%;
+justify-content: space-around;
+}
+.image img{
+width: 45%;;
+height:auto;
 }
